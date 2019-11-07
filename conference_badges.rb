@@ -20,7 +20,7 @@ def assign_rooms(names)
 end
 
 def printer(name)
-  binding.pry
+  #binding.pry
   batch_badge_creator(name).each {|badge_msg| puts "#{badge_msg}"}
   assign_rooms(name).each { |room_msg| puts "#{room_msg}"}
 end
